@@ -1,0 +1,40 @@
+#contenido #contenedor{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#contenido h3{
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#contenido h4{
+    text-align: center;
+}
+
+#contenido article{
+    padding: 15px;
+}
+
+#contenido img{
+    width: 100%;
+    max-width: 280px;
+}
+
+#imgCantas{
+    border-radius: 20%;
+}
+
+@media (min-width:480px){
+    #h4Cantas{
+        margin-top: 57px;
+    }
+
+    #h4DatosInteresantes{
+        margin-top: 5px;
+    }
+}

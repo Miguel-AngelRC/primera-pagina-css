@@ -1,0 +1,27 @@
+#generos{
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#generos #contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.inf-genero{
+    margin: 20px;
+}
+
+#generos img{
+    width: 150px;
+    border-radius: 50%;
+    border: solid 5px rgb(213, 216, 215);
+}
+
+@media (min-width:480px){
+    #inf-genero {
+        width: 40%;
+    }
+}
